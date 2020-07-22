@@ -1,0 +1,203 @@
+
+
+body
+{
+    
+    padding-top: 70px ;
+    height: 2000px ;
+}
+
+
+/********* Start Overriding bootstrap *******/
+
+ 
+ /* navbar start */
+ 
+/* menu navbar */
+.navbar
+{
+    min-height: 70px ;
+}
+
+/* Active link Home */
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active >
+.nav-link, .navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active
+{
+    
+    background: #E41B17;
+    padding-bottom: 15px ;
+    padding-top: 20px ;
+    border-radius: 5px ;
+   
+  
+    
+}
+
+/* Norma link */
+
+
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff ;
+    font-size:  20px ;
+}
+
+/* Navbar link */
+
+.navbar-dark .navbar-brand
+{
+    
+    color: #BBB ;
+    font-size: 30px ;
+    line-height: 30px ;
+    margin-bottom: 8px;
+}
+.navbar-dark .navbar-brand span
+{
+    color: #E41B17;
+}
+
+/* dropdown menu link */
+
+.navbar-expand-lg .navbar-nav .dropdown-menu
+{
+    background-color: #333 ;
+    border-top: 3px solid #E41B17 ;
+  
+    
+}
+/* dropdown menu Item */
+
+.dropdown-item
+{
+    color: #fff ;
+    padding: 6px 20px ;
+    min-width: 200px ;
+    
+  
+     
+}
+
+
+.dropdown-item:hover ,
+.dropdown-item:focus 
+
+{
+    
+    background-color: #E41B17;
+    color: #fff ;
+    padding-left: 30px ;
+    -webkit-transition: padding 0.5s ease ;
+    -moz-transition: padding 0.5s ease ;
+    -o-transition: padding 0.5s ease ;
+    transition: padding 0.5s ease ;
+}
+
+
+.dropdown-divider
+{
+    
+border-top: 1px solid #981835;
+}
+
+.navbar-expand-lg .navbar-collapse
+{
+    line-height: 40px ;
+}
+
+   /* navbar End */
+   
+   /* Start carousel */
+   
+   .carousel-caption
+   {
+    
+    bottom: 80px;
+    background: rgba(3,3,3,0.3) ;
+    padding-right: 20px ;
+    padding-left: 20px ;
+    color: #f6d2c2 ;
+    border-radius: 20px ;
+    
+   }
+   
+   .carousel-indicators li
+   {
+    
+    width: 50px ;
+    height: 10px ;
+    border-radius: 5px ;
+    border: 2px solid #E41B17; 
+
+   }
+   
+   .carousel-indicators .active
+   
+   {
+    
+     border-radius: 5px ;
+    border: 2px solid #130a0f ;
+    background: #E41B17;  
+
+   }
+
+     /* End carousel */
+     
+     /************ Start Section About *************/
+     
+     
+     .about
+     {
+        
+        padding-top: 40px ;
+        padding-bottom: 40px ;
+        
+     }
+     
+     
+     .about h1
+     {
+        font-weight: bold ;
+     }
+     
+    .about .lead
+    {
+        
+        color: #888 ;
+        font-size: 25px ;
+        margin-top: 15px ;
+    }
+    
+    .about h1 span
+    {
+        
+      color:  #E41B17 ;
+      
+    }
+     
+ 
+     /************ End Section About *************/
+     
+     /************ Start Section Features *************/
+     
+     .features
+     {
+        background:#DBDADA ;
+        padding-top: 50px ;
+        padding-bottom: 50px ;
+     }
+     /************ End Section Features *************/
+     
+   
+/********* End Overriding bootstrap *******/
+
+
+
+
+
+
+
+
+
